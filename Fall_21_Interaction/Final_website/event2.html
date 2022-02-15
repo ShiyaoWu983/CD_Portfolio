@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<title>Event Two</title>
+<link rel="stylesheet" href="/event2.css" />
+
+<!-- background area-->
+<script src="/event2.js"></script>
+<script src="/p5.js"></script>
+
+</head>
+
+
+<body>
+<div class="container"> 
+<p class="orientation">2021 tnscssa orientation 
+  &nbsp&nbsp&nbsp&nbsp&nbsp 2021 tnscssa orientation
+  &nbsp&nbsp&nbsp&nbsp&nbsp 2021 tnscssa orientation
+  &nbsp&nbsp&nbsp&nbsp&nbsp 2021 tnscssa orientation
+  &nbsp&nbsp&nbsp&nbsp&nbsp 2021 tnscssa orientation
+  &nbsp&nbsp&nbsp&nbsp&nbsp 2021 tnscssa orientation
+  &nbsp&nbsp&nbsp&nbsp&nbsp 2021 tnscssa orientation
+  &nbsp&nbsp&nbsp&nbsp&nbsp 2021 tnscssa orientation
+  &nbsp&nbsp&nbsp&nbsp&nbsp 2021 tnscssa orientation
+</p>
+
+<area href="information.html" class="blackblock" />
+
+<div class="when">WHEN?</div>
+<div class="where">WHERE?</div>
+<div class="what">WHAT?</div>
+  
+
+<div id="blocks">
+<div class="longblock1"></div>
+<div class="longblock2"></div>
+<div class="longblock3"></div>
+<div class="longblock4"></div>
+<div class="longblock5"></div>
+</div>
+  
+<div class="information">
+  <div class="sh-block"></div>
+  <div class="datesh-block"></div>
+  <div class="datebj-block"></div>
+  <div class="shlocation-block"></div>
+<div class="datebj">7/18/2021</div>
+<div class="bj-block"></div>
+<div class="bj">BEIJING</div>
+<div class="sh">SHANGHAI</div>
+<div class="shlocation">莫干山路50号6号楼105</div>
+<div class="datesh">7/29/2021</div>
+
+
+    </div>
+
+    <!-- specific schedule-->
+
+<div ckass="schedule">
+      <div class="schedulesqaure"></div>
+      <div class="schedule1">
+       <span class="pm1">2 pm</span><br/>
+        Get to know your future classmates together<br/><br/>
+      </div>
+
+      <div class="schedule2">
+        <span class="pm2">2:30 pm</span><br/>
+        Official explanation (include: luggage reference, 
+        public transportation, safety, life in New York, etc.)<br/>
+       </div>
+
+       <div class="schedule3">
+        <span class="pm3">3:45pm</span><br/>
+        Q & A <br/>
+       </div>
+     
+       <div class="schedule4">
+        <span class="pm4">4:15 pm</span><br/>
+        Free Socialization<br/>
+       </div>
+        
+       <div class="schedule5">
+        <span class="pm5">4:45 pm</span><br/>
+        Group picture timen<br/>
+       </div>
+     
+      
+</div>
+
+<!-- image area -->
+    
+<span class="grouppic">
+  <div class="w3-content w3-section" style="max-width:600px">
+  
+    <img class="mySlides w3-animate-fading" src="Group1.JPG" style="width:100%" style="height: fit-content">
+    <img class="mySlides w3-animate-fading" src="Group2.JPG" style="width:100%" style="height: fit-content">
+    <img class="mySlides w3-animate-fading" src="Group3.JPG" style="width:100%" style="height: fit-content">
+   
+  </div>
+
+<script>
+  var myIndex = 0;
+  carousel();
+  
+  function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 9000);    
+  }
+  </script>
+  
+  </span>
+
+  <div id="credits">
+    <div class="creditsto">CREDIT TO</div>
+    <div class="people">
+      Sidney TNSCSSA <br/>
+      韩乔依 TNSCSSA <br/>
+    </div>
+  <!-- link shape area-->
+  <area href="event3.html" class="whiteblock2" />
+<area href="information.html" class="whiteblock3" />
+
+
+</div>     
+</body>
+</html>

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <title>Event One</title>
+    <link rel="stylesheet" href="/event1.css" />
+
+  </head>
+
+  <body>
+<div class="container"> 
+
+  <img id="photo1" SRC="IMG_1338.GIF"> 
+
+  <div class="arrow"></div>
+
+  <area href="information.html" class="whiteblock" />
+
+  <div class="paragraph1">
+    <span class="sss">Swirl, Scuffle, Sequel: An Episo-demic Saga</span> is a 100% 
+    student-led online exhibition for the public good, 
+    with the participation of multiple groups from 
+    individual international students or their start-up 
+    projects or teams from major universities in North America.
+    <br/><br/>
+    In the unpredictable "post-epidemic era", our mission is 
+    becoming increasingly difficult: therefore, ULand, 
+    together with the New College China Student Association,
+    is now planning to launch an online "cloud" exhibition 
+    for "art and design universities and other creative projects
+    around the world". The "Cloud" exhibition will give art and 
+    design students a platform to showcase their creations, and 
+    at the same time implement the spirit and ethos of the New 
+    School, from the perspective of "supporting the new generation
+    of young artists, designers and new talents in the field of 
+    culture and creativity in China". We will share the opportunity
+    to participate in this art exhibition and the opportunity to 
+    improve their background after their works are selected to 
+    every student in the related fields.
+    
+</div>
+
+<div id="sideblock">
+  <div class="longblock"></div>
+  <div class="shortblock"></div>
+
+</div>
+
+
+<div class="container2">
+  <div class="img-box">
+    <div class="title">Open Call</div>
+    <div class="sub-title">Present tense</div>
+    <img id="img" src="Time1.PNG">
+  </div>
+  <div class="timeline">
+    <div class="time" id="0">8/25 - 11/16</div>
+    <div class="time" id="1">11/16 - 11/23</div>
+    <div class="time" id="2">11/24 - 12/23</div>
+    <div class="time" id="3">12/24</div>
+  </div>
+</div>
+
+<!-- four picture animation-->
+<script>
+  const array = [
+    { "title": "Open Call", "subTitle": "Present tense", "img": "Time1.PNG" },
+    { "title": "Curating I", "subTitle": "Future perfect tense", "img": "Time2.PNG" },
+    { "title": "Curating II", "subTitle": "The future is in progress", "img": "Time3.PNG" },
+    { "title": "Launch", "subTitle": "General future tense", "img": "Time4.GIF" }
+  ]
+
+  window.onload = function () {
+    document.querySelectorAll('.time').forEach(time => {
+      time.addEventListener('mouseover', function () {
+        let info = array[time.id]
+        document.querySelector('.title').innerHTML = info.title
+        document.querySelector('.sub-title').innerHTML = info.subTitle
+        document.querySelector('#img').src = info.img
+      })
+    })
+  }
+</script>
+
+<div id="location">
+<img id="event1image" SRC="event1location.PNG">
+ <div class="locationbig">LOCATION</div>
+ <div class="information">
+  <a href=" http://m.creatby.com/v2/manage/book/mqipdl/ "> 
+  <span class="one">100%</span></a>
+    online <br/>virtual exhibition <br/>
+  
+</div>
+</div>
+
+<div id="blocks">
+<div class="longblock2"></div>
+<div class="longblock3"></div>
+<div class="longblock4"></div>
+<div class="longblock5"></div>
+</div>
+
+<div id="explain">
+<div class="paragraph1-1">
+  An Episo-demic Saga: An Ode to Episodic Infectious Diseases
+  <br/>
+  <span class="episo"><center>Episo-demic  = Episodic + Epidemic</center></span>
+  <br/> <br/>
+  The art exhibition will be divided into three parts: 
+  <br/> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+  &nbsp&nbsp&nbsp&nbsp
+  <span class="Swirl">Swirl, Scuffle, Sequel</span>
+  <br/> <br/> <br/><br/> <br/> <br/>
+
+  <div class="ACT1-3">
+ <center>Act I - Swirl</center>  
+  At the beginning of every disaster, 
+  epidemic and crisis, everyone's life seems 
+  to be sucked into a huge whirlpool.
+  <br/> <br/>
+ <center>Act II - Scuffle </center> 
+  In the midst of the disasters, epidemics
+   and crises that swept the world, people fought 
+   against them as if they were caught in a short 
+   but chaotic struggle.
+   <br/> <br/>
+ <center>Act III - Sequel</center> 
+  As disasters, epidemics and crises fade away, 
+  people embrace calm again. Light years away, each 
+  seemingly tragic crisis in fact becomes a star point 
+  in the history of mankind and the world, becoming the
+   latest chapter in the sequence called "mega-disaster".
+  </div>
+
+</div>
+
+</div>
+
+<div id="credits">
+<div class="creditsto">CREDIT TO</div>
+<div class="people">
+  U.LAND <br/>
+  TNS CSSA <br/>
+  RAY CSSA
+  <br/>
+  <br/>
+</div>
+
+
+</div>
+
+<area href="event2.html" class="whiteblock2" />
+<area href="information.html" class="whiteblock3" />
+
+</div>     
+</body>
+</html>

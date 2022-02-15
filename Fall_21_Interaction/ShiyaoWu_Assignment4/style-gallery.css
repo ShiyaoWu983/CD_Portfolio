@@ -1,0 +1,183 @@
+body{
+  font-family: 'Commissioner', sans-serif;
+}
+
+/*headline*/
+
+ul.nav {
+  padding-left: 0px;
+  text-align: center;
+  color: white;
+}
+ul.nav > li {
+  display: inline-block;
+  padding: 10px 20px;
+}
+ul.nav > li:hover {
+  text-decoration: underline;
+  text-decoration-color: #fdcb46;
+  text-decoration-thickness: 10px;
+ 
+}
+ul.nav > li > a {
+  color: #51796e;
+  font-weight:600;
+  font-size:24px;
+}
+
+a{
+text-decoration: none;
+text-decoration-color: #fdcb46;
+
+}
+
+
+
+/*flying skater*/
+.flier {
+	pointer-events: none;
+  
+}
+
+.flier > * {
+/* Adjust animation duration to change the element’s speed */
+        animation: fly 50s linear infinite;
+        pointer-events: none !important;
+	top: 0;
+	left: 0;
+	transform: translateX(-120%) translateY(-120%) rotateZ(0);
+	position: fixed;
+	animation-delay: 1s;
+	z-index: 999999;
+
+}
+
+@keyframes fly {
+
+	98.001%, 0% {
+                display: block;
+		transform: translateX(-200%) translateY(100vh) rotateZ(0deg)
+	}
+
+	15% {
+		transform: translateX(100vw) translateY(-100%) rotateZ(180deg)
+	}
+
+	15.001%, 18% {
+		transform: translateX(100vw) translateY(-30%) rotateZ(0deg)
+	}
+
+	40% {
+		transform: translateX(-200%) translateY(3vh) rotateZ(-180deg)
+	}
+
+	40.001%, 43% {
+		transform: translateX(-200%) translateY(-100%) rotateZ(-180deg)
+	}
+
+	65% {
+		transform: translateX(100vw) translateY(50vh) rotateZ(0deg)
+	}
+
+	65.001%, 68% {
+		transform: translateX(20vw) translateY(-200%) rotateZ(180deg)
+	}
+
+	95% {
+		transform: translateX(10vw) translateY(100vh) rotateZ(0deg)
+	}
+}
+
+.containerone{
+  height:100vh;
+  display: flex;
+  margin: 0;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.house{
+  position:absolute; 
+  top: 50%; 
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 1400px; 
+  height: 700px; 
+  background-color: white; 
+
+}
+
+/*flying skater2*/
+.flier2 {
+	pointer-events: none;
+  
+}
+
+.flier2 > * {
+/* Adjust animation duration to change the element’s speed */
+        animation: fly 50s linear infinite;
+        pointer-events: none !important;
+	top: 0;
+	left: 0;
+	transform: translateX(-120%) translateY(-120%) rotateZ(0);
+	position: fixed;
+	animation-delay: 10s;
+	z-index: 999999;
+
+}
+
+@keyframes fly {
+
+	98.001%, 0% {
+                display: block;
+		transform: translateX(-200%) translateY(100vh) rotateZ(0deg)
+	}
+
+	15% {
+		transform: translateX(100vw) translateY(-100%) rotateZ(180deg)
+	}
+
+	15.001%, 18% {
+		transform: translateX(100vw) translateY(-30%) rotateZ(0deg)
+	}
+
+	40% {
+		transform: translateX(-200%) translateY(3vh) rotateZ(-180deg)
+	}
+
+	40.001%, 43% {
+		transform: translateX(-200%) translateY(-100%) rotateZ(-180deg)
+	}
+
+	65% {
+		transform: translateX(100vw) translateY(50vh) rotateZ(0deg)
+	}
+
+	65.001%, 68% {
+		transform: translateX(20vw) translateY(-200%) rotateZ(180deg)
+	}
+
+	95% {
+		transform: translateX(10vw) translateY(100vh) rotateZ(0deg)
+	}
+}
+
+.containerone{
+  height:100vh;
+  display: flex;
+  margin: 0;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+
+
+
+
+
+
+
+
+
